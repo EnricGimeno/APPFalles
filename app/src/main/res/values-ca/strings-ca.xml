@@ -1,0 +1,223 @@
+<resources>
+    <string name="app_name">Falles 2017</string>
+    <string name="action_settings">Configuració</string>
+    <string name="action_info">Agraïments</string>
+    <string name="fragmentMap">Fragment mapa</string>
+    <string name="fragmentStar">Fragment estrella</string>
+    <string name="fragmentRoute">Fragment ruta</string>
+    <string name="fragmentFavourite">Fragment favorit</string>
+    <string name="action_language">Idioma</string>
+
+    <!-- preferencias -->
+    <string name="language">Idioma</string>
+    <string name="languageTitle">IDIOMA</string>
+    <string name="preferencias">Preferencies</string>
+    <string name="pref_skyn_title">Apariencia</string>
+    <string name="pref_idioma_title">Idioma</string>
+    <string name="pref_idioma_summary">Tria el idioma</string>
+    <string name="pref_idioma_dialogtitle">Tria el idioma</string>
+    <string name="configuracion">Configuració</string>
+
+
+    <string-array name="pref_idioma_entryvalues">
+        <item>en</item>
+        <item>es</item>
+        <item>ca</item>
+    </string-array>
+
+    <string-array name="pref_idioma_entries">
+        <item>Ingles</item>
+        <item>Español</item>
+        <item>Valencià/Català</item>
+    </string-array>
+
+    <string name="falla">Falla</string>
+    <string name="fallaTitle">FALLES</string>
+    <string name="preferenciasFalla">Preferències</string>
+    <string name="pref_skyn_title_falla">Configuració</string>
+
+    <!-- preferencias Tipo Falla MAYOR -->
+    <string name="pref_falla_MA_title">Falla Major</string>
+    <string name="pref_falla_MA_summary">Tria la secció de la falla</string>
+    <string name="pref_falla_MA_dialogtitle">Tria la secció:</string>
+
+
+    <string-array name="pref_falla_MA_entryvalues">
+        <item>T_MA</item>
+        <item>MA_E</item>
+        <item>1A</item>
+        <item>1B</item>
+        <item>2A</item>
+        <item>2B</item>
+        <item>3A</item>
+        <item>3B</item>
+        <item>4A</item>
+        <item>4B</item>
+        <item>4C</item>
+        <item>5A</item>
+        <item>5B</item>
+        <item>5C</item>
+        <item>6A</item>
+        <item>6B</item>
+        <item>6C</item>
+        <item>7A</item>
+        <item>7B</item>
+        <item>7C</item>
+        <item>N_MA</item>
+
+    </string-array>
+
+    <string-array name="pref_falla_MA_entries">
+        <item>Todas</item>
+        <item>Secció Especial</item>
+        <item>Secció 1A</item>
+        <item>Secció 1B</item>
+        <item>Secció 2A</item>
+        <item>Secció 2B</item>
+        <item>Secció 3A</item>
+        <item>Secció 3B</item>
+        <item>Secció 4A</item>
+        <item>Secció 4B</item>
+        <item>Secció 4C</item>
+        <item>Secció 5A</item>
+        <item>Secció 5B</item>
+        <item>Secció 5C</item>
+        <item>Secció 6A</item>
+        <item>Secció 6B</item>
+        <item>Secció 6C</item>
+        <item>Secció 7A</item>
+        <item>Secció 7B</item>
+        <item>Secció 7C</item>
+        <item>Cap</item>
+
+    </string-array>
+
+    <!-- preferencias Tipo Falla INFANTIL -->
+    <string name="pref_falla_IN_title">Falla infantil</string>
+    <string name="pref_falla_IN_summary">Tria la secció de la falla</string>
+    <string name="pref_falla_IN_dialogtitle">Tria la secció</string>
+
+
+    <string-array name="pref_falla_IN_entryvalues">
+        <item>T_IN</item>
+        <item>IN_E</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>N_IN</item>
+
+    </string-array>
+
+    <string-array name="pref_falla_IN_entries">
+        <item>Todas</item>
+        <item>SeccióEspecial</item>
+        <item>Secció 1</item>
+        <item>Secció 2</item>
+        <item>Secció 3</item>
+        <item>Secció 4</item>
+        <item>Secció 5</item>
+        <item>Secció 6</item>
+        <item>Secció 7</item>
+        <item>Secció 8</item>
+        <item>Secció 9</item>
+        <item>Secció 10</item>
+        <item>Secció 11</item>
+        <item>Secció 12</item>
+        <item>Secció 13</item>
+        <item>Secció 14</item>
+        <item>Secció 15</item>
+        <item>Secció 16</item>
+        <item>Secció 17</item>
+        <item>Secció 18</item>
+        <item>Cap</item>
+
+
+    </string-array>
+
+    <!--Dialogo Alerta Internet-->
+    <string name="titleAlert">No hi ha connexió a internet</string>
+    <string name="messageAlert">Pareix que la connexió a internet esta apagada. Per favor, encenga i torna a provar</string>
+
+    <!--Barra de progresso-->
+    <string name="messageProgressDialog">Per favor, espere...</string>
+
+    <!--Eventos del calendario-->
+    <string name="plantaFallasInfantilesDescription">PLANTÀ FALLES MAJOR</string>
+    <string name="plantaFallasInfantilesEvent">Al matí</string>
+
+    <string name="plantaFallasMayoresDescription">PLANTÀ FALLES INFANTILS</string>
+    <string name="plantaFallaMayoresEvent">Al matí</string>
+
+    <string name="ofrendaDescription">OFRENA</string>
+
+    <string name="mascletaDescription">MASCLETÁ</string>
+
+    <string name="castellDescription">CASTELL DE FOCS ARTIFICIALS</string>
+    <string name="nitDelFocDescription">NIT DEL FOC</string>
+
+    <string name="cremaFallesInfantilDescription">CREMÀ FALLES INFANTILS</string>
+    <string name="cremaFallesInfantilLocation">Lloc de la Falla</string>
+
+    <string name="cremaFallesInfantilEspDescription">CREMÀ FALLA INFANTIL ESP.</string>
+    <string name="cremaFallesInfantilEspLocation">Guanyador especial</string>
+
+    <string name="cremaFallesMajorsDescription">CREMÀ FALLES MAJORS</string>
+    <string name="cremaFallesMajorsLocation">Lloc de la Falla</string>
+
+    <string name="cremaFallesMajorsEspDescription">CREMÀ FALLA MAJOR ESP.</string>
+    <string name="cremaFallesMajorsEspLocation">Guanyador especial</string>
+
+    <string name="cremaFallaAjunInfantilDescription">CREMÀ FALLA INFANTIL AJUNTAMENT</string>
+    <string name="cremaFallaAjunMajorDescription"> CREMÀ FALLA MAJOR AJUNTAMENT</string>
+
+    <!--MARKERS-->
+    <string name="markerMascletaTitle">MASCLETÁ</string>
+    <string name="markerMascletaSnippet">Des de l\'1 al 18 de març a les 14.00</string>
+
+    <string name="markerFocsTitle">FOCS ARTIFICIALS</string>
+    <string name="markerFocsSnippet">CASTELL DE FOCS: Dia 15 a les 00.00, 16 i 17 a la 01:00 de març. \n NIT DEL FOC: Dia 18 a la 01.30 de març</string>
+
+    <string name="markerOrenfaTitle">OFRENDA</string>
+    <string name="markerOfrendaSnippet">Dies 17 i 18 de març a les 15.30 fins a les 00.00</string>
+
+    <string name="markerArtist">Artista:</string>
+    <!--CAJA-->
+    <string name="cajaBusqueda">No resultats</string>
+    <string name="cajaBuscar">Buscar...</string>
+    <string name="cajaCargando">Carregant...</string>
+    <!--LISTVIEW-->
+    <string name="listViewWinner">Guanyador: </string>
+    <string name="listViewYear">Any: </string>
+
+    <!--DETAIL VIEW-->
+    <string name="detailFalla">Falla</string>
+    <string name="detailFallera">Fallera </string>
+    <string name="detailArtist">Artista </string>
+    <string name="detailPresident">President </string>
+    <string name="detailSection">Secció </string>
+    <string name="detailAddres">Direcció </string>
+
+    <!--String NO DATA-->
+    <string name="strNoData">Comproveu la configuració i seleccioneu una secció per a les Falles.</string>
+    <!--String Acerca de-->
+    <string name="acerca_de"><b>Fallas 2017</b>\n\n
+		Correu: engivi1@gmail.com\n\n
+		(c) 2016 Enric Gimeno. All rights reserved\n</string>
+
+
+</resources>

@@ -1,0 +1,61 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@drawable/customshape"
+    >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            >
+
+            <View
+                android:id="@+id/rectangle"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/fondo_bandera"
+                android:visibility="visible"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/listNombre"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/rectangle"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/listLugar"
+                android:layout_below="@id/listNombre"
+                android:layout_toRightOf="@+id/rectangle"
+                android:paddingLeft="5dp"
+                android:textSize="12dp"
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/listHora"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                />
+
+        </RelativeLayout>
+
+</LinearLayout>

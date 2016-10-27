@@ -1,0 +1,224 @@
+<resources>
+    <string name="app_name">Fallas 2017</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_info">Reconocimiento</string>
+    <string name="fragmentMap">Fragmento mapa</string>
+    <string name="fragmentStar">Fragmento estrella</string>
+    <string name="fragmentRoute">Fragmento ruta</string>
+    <string name="fragmentFavourite">Fragmento favorito</string>
+    <string name="action_language">Idioma</string>
+
+    <!-- preferencias -->
+    <string name="language">Idioma</string>
+    <string name="languageTitle">IDIOMA</string>
+    <string name="preferencias">Preferencencias</string>
+    <string name="pref_skyn_title">Apariencia</string>
+    <string name="pref_idioma_title">Idioma</string>
+    <string name="pref_idioma_summary">Elige el idioma</string>
+    <string name="pref_idioma_dialogtitle">Elige idioma</string>
+    <string name="configuracion">Configuración</string>
+
+
+    <string-array name="pref_idioma_entryvalues">
+        <item>en</item>
+        <item>es</item>
+        <item>ca</item>
+    </string-array>
+
+    <string-array name="pref_idioma_entries">
+        <item>Ingles</item>
+        <item>Español</item>
+        <item>Valenciano/Catalán</item>
+    </string-array>
+
+    <string name="falla">Falla</string>
+    <string name="fallaTitle">FALLAS</string>
+    <string name="preferenciasFalla">Preferencias</string>
+    <string name="pref_skyn_title_falla">Configuración</string>
+
+    <!-- preferencias Tipo Falla MAYOR -->
+    <string name="pref_falla_MA_title">Falla Mayor</string>
+    <string name="pref_falla_MA_summary">Elige la sección de la falla</string>
+    <string name="pref_falla_MA_dialogtitle">Elige la sección:</string>
+
+
+    <string-array name="pref_falla_MA_entryvalues">
+        <item>T_MA</item>
+        <item>MA_E</item>
+        <item>1A</item>
+        <item>1B</item>
+        <item>2A</item>
+        <item>2B</item>
+        <item>3A</item>
+        <item>3B</item>
+        <item>4A</item>
+        <item>4B</item>
+        <item>4C</item>
+        <item>5A</item>
+        <item>5B</item>
+        <item>5C</item>
+        <item>6A</item>
+        <item>6B</item>
+        <item>6C</item>
+        <item>7A</item>
+        <item>7B</item>
+        <item>7C</item>
+        <item>N_MA</item>
+
+    </string-array>
+
+    <string-array name="pref_falla_MA_entries">
+        <item>Todas</item>
+        <item>Sección Especial</item>
+        <item>Sección 1A</item>
+        <item>Sección 1B</item>
+        <item>Sección 2A</item>
+        <item>Sección 2B</item>
+        <item>Sección 3A</item>
+        <item>Sección 3B</item>
+        <item>Sección 4A</item>
+        <item>Sección 4B</item>
+        <item>Sección 4C</item>
+        <item>Sección 5A</item>
+        <item>Sección 5B</item>
+        <item>Sección 5C</item>
+        <item>Sección 6A</item>
+        <item>Sección 6B</item>
+        <item>Sección 6C</item>
+        <item>Sección 7A</item>
+        <item>Sección 7B</item>
+        <item>Sección 7C</item>
+        <item>Ninguna</item>
+
+    </string-array>
+
+    <!-- preferencias Tipo Falla INFANTIL -->
+    <string name="pref_falla_IN_title">Falla infantil</string>
+    <string name="pref_falla_IN_summary">Elige la sección de la falla</string>
+    <string name="pref_falla_IN_dialogtitle">Elige la sección:</string>
+
+
+    <string-array name="pref_falla_IN_entryvalues">
+        <item>T_IN</item>
+        <item>IN_E</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>N_IN</item>
+
+    </string-array>
+
+    <string-array name="pref_falla_IN_entries">
+        <item>Todas</item>
+        <item>Sección Especial</item>
+        <item>Sección 1</item>
+        <item>Sección 2</item>
+        <item>Sección 3</item>
+        <item>Sección 4</item>
+        <item>Sección 5</item>
+        <item>Sección 6</item>
+        <item>Sección 7</item>
+        <item>Sección 8</item>
+        <item>Sección 9</item>
+        <item>Sección 10</item>
+        <item>Sección 11</item>
+        <item>Sección 12</item>
+        <item>Sección 13</item>
+        <item>Sección 14</item>
+        <item>Sección 15</item>
+        <item>Sección 16</item>
+        <item>Sección 17</item>
+        <item>Sección 18</item>
+        <item>Ninguna</item>
+
+
+    </string-array>
+
+    <!--Dialogo Alerta Internet-->
+    <string name="titleAlert">No hay conexión ha internet</string>
+    <string name="messageAlert">Parece que la conexión ha internet esta apagada. Por favor, enciéndela y vuelve a probar</string>
+
+    <!--Barra de progresso-->
+    <string name="messageProgressDialog">Por favor, espere...</string>
+
+    <!--Eventos del calendario-->
+    <string name="plantaFallasInfantilesDescription">"PLANTÀ" FALLAS MAYOR</string>
+    <string name="plantaFallasInfantilesEvent">Por la mañana</string>
+
+    <string name="plantaFallasMayoresDescription">"PLANTÀ" FALLAS INFANTILES</string>
+    <string name="plantaFallaMayoresEvent">Por la mañana</string>
+
+    <string name="ofrendaDescription">OFRENDA</string>
+
+    <string name="mascletaDescription">MASCLETÁ</string>
+
+    <string name="castellDescription">CASTILLO DE FUEGOS ARTIFICIALES</string>
+    <string name="nitDelFocDescription">NOCHE DEL FUEGO</string>
+
+    <string name="cremaFallesInfantilDescription">CREMÀ FALLAS INFANTILES</string>
+    <string name="cremaFallesInfantilLocation">Lugar de la Falla</string>
+
+    <string name="cremaFallesInfantilEspDescription">CREMÀ FALLA INFANTIL ESP.</string>
+    <string name="cremaFallesInfantilEspLocation">Ganador especial</string>
+
+    <string name="cremaFallesMajorsDescription">CREMÀ FALLAS MAYORES</string>
+    <string name="cremaFallesMajorsLocation">Lugar de la Falla</string>
+
+    <string name="cremaFallesMajorsEspDescription">CREMÀ FALLA MAYOR ESP.</string>
+    <string name="cremaFallesMajorsEspLocation">Ganador especial</string>
+
+    <string name="cremaFallaAjunInfantilDescription">CREMÀ FALLA INFANTIL AYUNTAMIENTO</string>
+    <string name="cremaFallaAjunMajorDescription"> CREMÀ FALLA MAYOR AYUNTAMIENTO</string>
+
+    <!--MARKERS-->
+    <string name="markerMascletaTitle">MASCLETÁ</string>
+    <string name="markerMascletaSnippet">Desde el 1 al 18 de marzo a las 14.00</string>
+
+    <string name="markerFocsTitle">FUEGOS ARTIFICIALES</string>
+    <string name="markerFocsSnippet">CASTELL DE FOCS: Día 15 a las 00.00, 16 y 17 a la 01.00 de marzo. \n NIT DEL FOC: Día 18 a la 01.30 de marzo</string>
+
+    <string name="markerOrenfaTitle">OFRENDA</string>
+    <string name="markerOfrendaSnippet">Días 17 y 18 de marzo a las 15.30 hasta las 24.00</string>
+
+    <string name="markerArtist">Artista:</string>
+    <!--CAJA-->
+    <string name="cajaBusqueda">No resultados</string>
+    <string name="cajaBuscar">Buscar...</string>
+    <string name="cajaCargando">Cargando...</string>
+    <!--LISTVIEW-->
+    <string name="listViewWinner">Ganador: </string>
+    <string name="listViewYear">Año: </string>
+
+    <!--DETAIL VIEW-->
+    <string name="detailFalla">Falla</string>
+    <string name="detailFallera">Fallera </string>
+    <string name="detailArtist">Artista </string>
+    <string name="detailPresident">Presidente </string>
+    <string name="detailSection">Sección </string>
+    <string name="detailAddres">Dirección </string>
+
+    <!--String NO DATA-->
+    <string name="strNoData">Comprobar la configuración y seleccionar una sección para las Fallas.</string>
+
+    <!--String Acerca de-->
+    <string name="acerca_de"><b>Fallas 2017</b>\n\n
+		Correo: engivi1@gmail.com\n\n
+		(c) 2016 Enric Gimeno. All rights reserved\n</string>
+
+
+</resources>

@@ -1,0 +1,229 @@
+<resources>
+    <string name="app_name">Falles 2017</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_info">Acknowledge</string>
+    <string name="fragmentMap">Fragment map</string>
+    <string name="fragmentStar">Fragment star</string>
+    <string name="fragmentRoute">Fragment route</string>
+    <string name="fragmentFavourite">Fragment favourite</string>
+    <string name="action_language">Language</string>
+
+
+    <!-- preferencias Idioma -->
+    <string name="language">Language</string>
+    <string name="languageTitle">LANGUAGE</string>
+    <string name="preferencias">Prefere</string>
+    <string name="pref_skyn_title">Appearance</string>
+    <string name="pref_idioma_title">Language</string>
+    <string name="pref_idioma_summary">Choose the language</string>
+    <string name="pref_idioma_dialogtitle">Choose language:</string>
+    <string name="configuracion">Settings</string>
+
+
+    <string-array name="pref_idioma_entryvalues">
+        <item>en</item>
+        <item>es</item>
+        <item>ca</item>
+    </string-array>
+
+    <string-array name="pref_idioma_entries">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>Valencian/Catalan</item>
+    </string-array>
+
+    <!-- preferencias FALLA -->
+    <string name="falla">Falla</string>
+    <string name="fallaTitle">FALLAS</string>
+    <string name="preferenciasFalla">Preference</string>
+    <string name="pref_skyn_title_falla">Appearance</string>
+
+    <!-- preferencias Tipo Falla MAYOR -->
+    <string name="pref_falla_MA_title">Bigger Falla</string>
+    <string name="pref_falla_MA_summary">Choose the section of the falla</string>
+    <string name="pref_falla_MA_dialogtitle">Choose the section:</string>
+
+
+    <string-array name="pref_falla_MA_entryvalues">
+        <item>T_MA</item>
+        <item>MA_E</item>
+        <item>1A</item>
+        <item>1B</item>
+        <item>2A</item>
+        <item>2B</item>
+        <item>3A</item>
+        <item>3B</item>
+        <item>4A</item>
+        <item>4B</item>
+        <item>4C</item>
+        <item>5A</item>
+        <item>5B</item>
+        <item>5C</item>
+        <item>6A</item>
+        <item>6B</item>
+        <item>6C</item>
+        <item>7A</item>
+        <item>7B</item>
+        <item>7C</item>
+        <item>N_MA</item>
+
+    </string-array>
+
+    <string-array name="pref_falla_MA_entries">
+        <item>Todas</item>
+        <item>Especial Section</item>
+        <item>Section 1A</item>
+        <item>Section 1B</item>
+        <item>Section 2A</item>
+        <item>Section 2B</item>
+        <item>Section 3A</item>
+        <item>Section 3B</item>
+        <item>Section 4A</item>
+        <item>Section 4B</item>
+        <item>Section 4C</item>
+        <item>Section 5A</item>
+        <item>Section 5B</item>
+        <item>Section 5C</item>
+        <item>Section 6A</item>
+        <item>Section 6B</item>
+        <item>Section 6C</item>
+        <item>Section 7A</item>
+        <item>Section 7B</item>
+        <item>Section 7C</item>
+        <item>Ninguna</item>
+
+    </string-array>
+
+    <!-- preferencias Tipo Falla INFANTIL -->
+    <string name="pref_falla_IN_title">Children\'s Falla</string>
+    <string name="pref_falla_IN_summary">Choose the section of the falla</string>
+    <string name="pref_falla_IN_dialogtitle">Choose the section:</string>
+
+
+    <string-array name="pref_falla_IN_entryvalues">
+        <item>T_IN</item>
+        <item>IN_E</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>N_IN</item>
+
+    </string-array>
+
+    <string-array name="pref_falla_IN_entries">
+        <item>Todas</item>
+        <item>Especial Section</item>
+        <item>Section 1</item>
+        <item>Section 2</item>
+        <item>Section 3</item>
+        <item>Section 4</item>
+        <item>Section 5</item>
+        <item>Section 6</item>
+        <item>Section 7</item>
+        <item>Section 8</item>
+        <item>Section 9</item>
+        <item>Section 10</item>
+        <item>Section 11</item>
+        <item>Section 12</item>
+        <item>Section 13</item>
+        <item>Section 14</item>
+        <item>Section 15</item>
+        <item>Section 16</item>
+        <item>Section 17</item>
+        <item>Section 18</item>
+        <item>Ninguna</item>
+
+
+    </string-array>
+
+    <!--Dialogo Alerta Internet-->
+    <string name="titleAlert">No Internet Connection</string>
+    <string name="messageAlert">It looks like your internet connection is off. Please turn it on and try again</string>
+
+    <!--Barra de progresso-->
+    <string name="messageProgressDialog">Please wait...</string>
+
+    <!--Eventos del calendario-->
+    <string name="plantaFallasInfantilesDescription">CHILDREN\'S FALLAS ON STREET</string>
+    <string name="plantaFallasInfantilesEvent">In the morning</string>
+
+    <string name="plantaFallasMayoresDescription">BIGGER FALLAS ON STREET</string>
+    <string name="plantaFallaMayoresEvent">In the morning</string>
+
+    <string name="ofrendaDescription">OFFERING OF THE FLOWERS</string>
+
+    <string name="mascletaDescription">MASCLETÁ (pyrotechnic event)</string>
+
+    <string name="castellDescription">CASTELL DE FOCS (firework displays)</string>
+    <string name="nitDelFocDescription">NIT DEL FOC (firework displays)</string>
+
+    <string name="cremaFallesInfantilDescription">CHILDREN\'S FALLAS BURN</string>
+    <string name="cremaFallesInfantilLocation">Everywhere</string>
+
+    <string name="cremaFallesInfantilEspDescription">SPECIAL CHILDREN\'S FALLAS BURN</string>
+    <string name="cremaFallesInfantilEspLocation">Special winner</string>
+
+    <string name="cremaFallesMajorsDescription">BIGGER FALLAS BURN</string>
+    <string name="cremaFallesMajorsLocation">Everywhere</string>
+
+    <string name="cremaFallesMajorsEspDescription">SPECIAL BIGGER FALLAS BURN</string>
+    <string name="cremaFallesMajorsEspLocation">Special winner</string>
+
+    <string name="cremaFallaAjunInfantilDescription"> CHILDREN TOWN HALL FALLA BURN</string>
+    <string name="cremaFallaAjunMajorDescription"> BIGGER TOWN HALL FALLA BURN</string>
+
+    <!--MARKERS-->
+    <string name="markerMascletaTitle">MASCLETÁ</string>
+    <string name="markerMascletaSnippet">From 1 to 18 of March at 14:00</string>
+
+    <string name="markerFocsTitle">FIREWORK DISPLAYS</string>
+    <string name="markerFocsSnippet">CASTELL DE FOCS : 15 at 00:00, 16 and 17 at 01:00 of March. \n NIT DEL FOC: 18 at 01:30 of March</string>
+
+    <string name="markerOrenfaTitle">OFFERING OF THE FLOWERS</string>
+    <string name="markerOfrendaSnippet">17 and 18 of March at 15:30 to 24:00</string>
+
+    <string name="markerArtist">Artist:</string>
+    <!--CAJA-->
+    <string name="cajaBusqueda">No results</string>
+    <string name="cajaBuscar">Search...</string>
+    <string name="cajaCargando">Loading...</string>
+    <!--LISTVIEW-->
+    <string name="listViewWinner">Winner: </string>
+    <string name="listViewYear">Year: </string>
+
+    <!--DETAIL VIEW-->
+    <string name="detailFalla">Falla</string>
+    <string name="detailFallera">Fallera </string>
+    <string name="detailArtist">Artist </string>
+    <string name="detailPresident">President </string>
+    <string name="detailSection">Section </string>
+    <string name="detailAddres">Addres </string>
+
+    <!--String NO DATA-->
+    <string name="strNoData">Check the configuration and select a section for the Fallas. </string>
+
+    <!--String Acerca de-->
+    <string name="acerca_de"><b>Falles 2017</b>\n\n
+		email: engivi1@gmail.com\n\n
+		(c) 2016 Enric Gimeno. All rights reserved\n</string>
+
+
+
+
+
+</resources>

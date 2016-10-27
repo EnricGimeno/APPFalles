@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@android:color/white"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:theme="@style/ToolbarColoredSettings"
+            app:popupTheme = "@style/AppTheme"
+            app:layout_scrollFlags="scroll|enterAlways"
+            />
+
+        <ImageView
+            android:id="@+id/falla_imagen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="top"
+            android:adjustViewBounds="true"
+
+            />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:stretchColumns="1"
+            android:shrinkColumns="1"
+            >
+
+            <TableRow
+                android:padding="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imgViewNombre"
+                    android:layout_column="0"
+                    android:src="@drawable/ic_name"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    />
+
+                <TextView
+                    android:layout_column="1"
+                    android:paddingLeft="20dip"
+                    android:text="@string/detailFalla"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/txtName"
+                    android:layout_column="1"
+                    android:paddingLeft="20dip"
+                    android:text="Nombre de la falla"
+                    android:textColor="@android:color/darker_gray"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/txtLema"
+                    android:layout_column="1"
+                    android:paddingLeft="20dip"
+                    android:text="Lema"
+                    android:textStyle="italic"
+                    android:textColor="@android:color/darker_gray"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imgViewFallera"
+                    android:layout_column="0"
+                    android:src="@drawable/ic_fallera"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+
+                    />
+
+                <TextView
+                    android:layout_column="1"
+                    android:paddingLeft="20dip"
+                    android:text="@string/detailFallera"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/txtFallera"
+                    android:layout_column="1"
+                    android:paddingLeft="20dip"
+                    android:text="Nombre de la fallera"
+                    android:textColor="@android:color/darker_gray" />
+
+            </TableRow>
+
+            <TableRow
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imgViewArtista"
+                    android:layout_column="0"
+                    android:src="@drawable/ic_artist"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    />
+
+                <TextView
+                    android:layout_column="1"
+                    android:paddingLeft="20dip"
+                    android:text="@string/detailArtist"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:padding="10dp">
+
+            <TextView
+                android:id="@+id/txtArtista"
+                android:layout_column="1"
+                android:paddingLeft="20dip"
+                android:text="Nombre del Artista"
+                android:textColor="@android:color/darker_gray" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imgViewPresident"
+                    android:layout_column="0"
+                    android:src="@drawable/ic_president"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    />
+
+                <TextView
+                    android:layout_column="1"
+                    android:paddingLeft="20dip"
+                    android:text="@string/detailPresident"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:padding="10dp">
+
+            <TextView
+                android:id="@+id/txtPresident"
+                android:layout_column="1"
+                android:paddingLeft="20dip"
+                android:text="Nombre del Presidente"
+                android:textColor="@android:color/darker_gray" />
+
+            </TableRow>
+
+            <TableRow
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imgViewSection"
+                    android:layout_column="0"
+                    android:src="@drawable/ic_seccion"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    />
+
+                <TextView
+                    android:layout_column="1"
+                    android:paddingLeft="20dip"
+                    android:text="@string/detailSection"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/txtSection"
+                    android:layout_column="1"
+                    android:paddingLeft="20dip"
+                    android:text="Seccion"
+                    android:textColor="@android:color/darker_gray" />
+
+            </TableRow>
+
+            <TableRow
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imgViewAdress"
+                    android:layout_column="0"
+                    android:src="@drawable/ic_address"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    />
+
+                <TextView
+                    android:layout_column="1"
+                    android:paddingLeft="20dip"
+                    android:text="@string/detailAddres"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/txtAddress"
+                    android:layout_column="1"
+                    android:paddingLeft="20dip"
+                    android:text="Address"
+                    android:textColor="@android:color/darker_gray" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gimeno.enric.falles_designv2.MainActivity"
+    >
+
+    <item
+        android:id="@+id/logo"
+        android:title="@string/app_name"
+        android:icon="@drawable/icono_v10"
+        app:showAsAction="ifRoom"
+        android:actionViewClass="android.widget.SearchView"
+        />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+
+</menu>

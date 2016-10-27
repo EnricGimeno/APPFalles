@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <PreferenceCategory
+        android:title = "@string/languageTitle"
+        android:key="pref_language_category"
+
+
+        >
+        <Preference
+            android:layout="@layout/preference_divider"/>
+
+        <ListPreference
+
+            android:key="pref_idiom"
+            android:title="@string/pref_idioma_title"
+            android:summary="@string/pref_idioma_summary"
+            android:entries="@array/pref_idioma_entries"
+            android:entryValues="@array/pref_idioma_entryvalues"
+            android:dialogTitle="@string/pref_idioma_dialogtitle"
+            android:defaultValue="en"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title = "@string/fallaTitle"
+        android:key="pref_falla_category"
+
+        >
+        <Preference
+            android:layout="@layout/preference_divider"/>
+
+        <ListPreference
+
+            android:key="pref_falla_MA"
+            android:title="@string/pref_falla_MA_title"
+            android:icon="@drawable/marker_falla_border_blue"
+            android:summary="@string/pref_falla_MA_summary"
+            android:entries="@array/pref_falla_MA_entries"
+            android:entryValues="@array/pref_falla_MA_entryvalues"
+            android:dialogTitle="@string/pref_falla_MA_dialogtitle"
+            android:defaultValue="N_MA"
+            />
+
+        <ListPreference
+
+            android:key="pref_falla_IN"
+            android:title="@string/pref_falla_IN_title"
+            android:icon="@drawable/marker_falla_border_green"
+            android:summary="@string/pref_falla_IN_summary"
+            android:entries="@array/pref_falla_IN_entries"
+            android:entryValues="@array/pref_falla_IN_entryvalues"
+            android:dialogTitle="@string/pref_falla_IN_dialogtitle"
+            android:defaultValue="N_IN"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
