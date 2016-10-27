@@ -11,7 +11,7 @@ corresponding detail. Moreover, is it possible to configure the language and the
 ### SCREENSHOT - MAP
 ![map](https://cloud.githubusercontent.com/assets/16654193/19777669/a6e4c75e-9c79-11e6-85f5-eb3f5820e13a.png)
 ### SCREENSHOT - HISTORICAL WINNERS
-
+![listwinners](https://cloud.githubusercontent.com/assets/16654193/19777907/9e8da8f4-9c7a-11e6-9547-a26c1f66cfad.png)
 ### SCREENSHOT - CALENDAR
 ![calendar](https://cloud.githubusercontent.com/assets/16654193/19777664/a6dbf444-9c79-11e6-9419-356cd3da4e89.png)
 ### SCREENSHOT - GRIDVIEW 
